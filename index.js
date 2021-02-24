@@ -9,7 +9,7 @@ const roleName = "게스트" // 입장 시 지급 할 역할의 이름을 적어
 
 client.on("ready", () => {
   console.log("켰다.")
-  client.user.setPresence({ activity: { name: "24시간 서버관리중[[/help]];" }, status: "online" })
+  client.user.setPresence({ activity: { name: "24시간 서버관리중[skk[/help]]" }, status: "online" })
 })
 
 client.on("guildMemberAdd", (member) => {
