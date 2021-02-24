@@ -1,6 +1,6 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
-const token = process.argv.length == 2 ? process.env.token : "";
+const token =  "NzU1MDQ1MDI1NDMxNDIxMDcw.X19keg.oeD1TFln9jIA89p3ysfmemxjQzE";
 const welcomeChannelName = "✨안녕하세요" // 입장 시 환영메시지를 전송 할 채널의 이름을 입력하세요.
 const byeChannelName = "✨안녕히가세요" // 퇴장 시 메시지를 전송 할 채널의 이름을 입력하세요.
 const welcomeChannelComment = "이서버에 오신걸 환영합니다.✨" // 입장 시 전송할 환영메시지의 내용을 입력하세요.
